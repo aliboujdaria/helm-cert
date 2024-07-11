@@ -67,10 +67,10 @@ postgresql:
     resources:
       limits:
         memory: "512Mi"
-        cpu: "1"
+        cpu: "500m"
       requests:
-        memory: "512Mi"
-        cpu: "1"
+        memory: "256Mi"
+        cpu: "100m"
     volumePermissions:
       enabled: false
       securityContext:
